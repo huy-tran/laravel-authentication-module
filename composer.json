@@ -1,0 +1,29 @@
+{
+    "name": "huytran/authentication-module",
+    "type": "laravel-module",
+    "description": "Laravel Authentication Module",
+    "authors": [
+        {
+            "name": "Huy Tran",
+            "email": "hygo.tran@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laravel/sanctum": "^2.8",
+        "lorisleiva/laravel-actions": "^2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Authentication\\": "Modules\\Authentication\\"
+        }
+    }
+}
