@@ -25,5 +25,8 @@
         "psr-4": {
             "Modules\\Authentication\\": "Modules\\Authentication\\"
         }
-    }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
